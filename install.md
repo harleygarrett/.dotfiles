@@ -15,3 +15,13 @@ echo >> $HOME/.zprofile
 echo 'eval "$(/opt/homebrew/bin/brew shellenv)"' >> $HOME/.zprofile
 eval "$(/opt/homebrew/bin/brew shellenv)"
 ```
+
+## [Google Chrome](https://www.google.com/chrome/)
+
+Default browser
+
+### Installation
+
+```zsh
+brew install --cask google-chrome
+```
