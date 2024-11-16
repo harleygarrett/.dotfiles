@@ -1,5 +1,7 @@
 {
     "workbench.colorTheme": "Solarized Dark",
+    
+    // Show .git directory in file explorer
     "files.exclude": {
         "**/.git": false
     }
