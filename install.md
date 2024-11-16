@@ -25,3 +25,13 @@ Default browser
 ```zsh
 brew install --cask google-chrome
 ```
+
+## [Visual Studio Code](https://code.visualstudio.com/)
+
+Default code editor
+
+### Installation
+
+```zsh
+brew install --cask visual-studio-code
+```
