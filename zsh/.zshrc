@@ -6,3 +6,6 @@ export PATH="/Users/harleygarrett/Library/Application Support/Herd/bin/":$PATH
 
 # MySQL client
 export PATH="/opt/homebrew/opt/mysql-client/bin:$PATH"
+
+# fnm
+eval "$(fnm env --use-on-cd --shell zsh --version-file-strategy=recursive)"

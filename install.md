@@ -109,3 +109,31 @@ brew install mysql-client
 ```zsh
 export PATH="/opt/homebrew/opt/mysql-client/bin:$PATH"
 ```
+
+## [`fnm`](https://github.com/Schniz/fnm)
+
+Node package manager — alternative to `nvm`
+
+### Installation
+
+```zsh
+brew install fnm
+```
+
+### Completions
+
+```zsh
+fnm completions --shell
+```
+
+### Add to `.zshrc`
+
+```zsh
+eval "$(fnm env --use-on-cd --shell zsh)"
+```
+
+### Install Node
+
+```zsh
+fnm install 22
+```
