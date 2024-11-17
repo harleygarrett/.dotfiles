@@ -83,3 +83,13 @@ For local WordPress development
 ```zsh
 brew install --cask dbngin
 ```
+
+## [TablePlus](https://tableplus.com/)
+
+For local WordPress development
+
+### Installation
+
+```zsh
+brew install --cask tableplus
+```
