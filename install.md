@@ -71,7 +71,7 @@ brew install --cask herd
 ### Add custom Herd path
 
 ```
-$PATH/.dev/herd
+$HOME/.dev/herd
 ```
 
 ## [DBngin](https://dbngin.com/)
@@ -92,4 +92,20 @@ For local WordPress development
 
 ```zsh
 brew install --cask tableplus
+```
+
+## MySQL Client
+
+Required for Laravel Herd 
+
+### Installation
+
+```zsh
+brew install mysql-client
+```
+
+### Add to `$PATH`
+
+```zsh
+export PATH="/opt/homebrew/opt/mysql-client/bin:$PATH"
 ```

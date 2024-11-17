@@ -3,3 +3,6 @@ export HERD_PHP_83_INI_SCAN_DIR="/Users/harleygarrett/Library/Application Suppor
 
 ## Herd injected PHP binary.
 export PATH="/Users/harleygarrett/Library/Application Support/Herd/bin/":$PATH
+
+# MySQL client
+export PATH="/opt/homebrew/opt/mysql-client/bin:$PATH"
