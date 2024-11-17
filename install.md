@@ -73,3 +73,13 @@ brew install --cask herd
 ```
 $PATH/.dev/herd
 ```
+
+## [DBngin](https://dbngin.com/)
+
+For local WordPress development
+
+### Installation
+
+```zsh
+brew install --cask dbngin
+```
