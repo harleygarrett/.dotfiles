@@ -57,3 +57,19 @@ brew install git
 ```zsh
 brew install wp-cli
 ```
+
+## [Laravel Herd](https://herd.laravel.com/)
+
+For local WordPress development
+
+### Installation
+
+```zsh
+brew install --cask herd
+```
+
+### Add custom Herd path
+
+```
+$PATH/.dev/herd
+```
