@@ -137,3 +137,11 @@ eval "$(fnm env --use-on-cd --shell zsh)"
 ```zsh
 fnm install 22
 ```
+
+## [Warp](https://www.warp.dev/)
+
+Terminal built in Rust — alternative to iTerm2
+
+```zsh
+brew install --cask warp
+```
