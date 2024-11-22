@@ -3,9 +3,10 @@
 
     "editor.fontFamily": "'Syne Mono', Menlo, Monaco, 'Courier New', monospace",
     "editor.fontSize": 14,
+    "editor.tabSize": 2,
     
     "terminal.integrated.fontSize": 14,
-    
+
     // Show .git directory in file explorer
     "files.exclude": {
         "**/.git": false

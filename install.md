@@ -142,6 +142,20 @@ fnm install 22
 
 Terminal built in Rust — alternative to iTerm2
 
+### Installation
+
 ```zsh
 brew install --cask warp
 ```
+
+## [Linear](https://linear.app/)
+
+### Installation
+
+```zsh
+brew install --cask linear-linear
+```
+
+### Customise
+
+Use Solarized Dark theme from [linear.style](https://linear.style/)
