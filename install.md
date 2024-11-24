@@ -223,3 +223,15 @@ brew install --cask notion
 ```zsh
 brew install --cask notion-calendar
 ```
+
+## Syne Mono
+
+Default coding font
+
+### Installation
+
+Initially installed via Google Fonts, but removed and installed using Homebrew instead:
+
+```zsh
+brew install --cask font-syne-mono
+```
