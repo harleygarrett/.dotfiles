@@ -199,3 +199,11 @@ pnpm add --global eas-cli
 ```zsh
 brew install --cask android-studio
 ```
+
+## Figma
+
+### Installation
+
+```zsh
+brew install --cask figma
+```
