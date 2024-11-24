@@ -9,3 +9,11 @@ export PATH="/opt/homebrew/opt/mysql-client/bin:$PATH"
 
 # fnm
 eval "$(fnm env --use-on-cd --shell zsh --version-file-strategy=recursive)"
+
+# pnpm
+export PNPM_HOME="/Users/harleygarrett/Library/pnpm"
+case ":$PATH:" in
+  *":$PNPM_HOME:"*) ;;
+  *) export PATH="$PNPM_HOME:$PATH" ;;
+esac
+# pnpm end
