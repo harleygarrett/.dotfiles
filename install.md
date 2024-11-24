@@ -207,3 +207,19 @@ brew install --cask android-studio
 ```zsh
 brew install --cask figma
 ```
+
+## Notion
+
+### Installation
+
+```zsh
+brew install --cask notion
+```
+
+## Notion Calendar
+
+### Installation
+
+```zsh
+brew install --cask notion-calendar
+```
