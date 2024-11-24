@@ -175,3 +175,27 @@ brew install pnpm
 ```zsh
 pnpm setup
 ```
+
+## Expo
+
+```zsh
+brew install expo-orbit
+```
+
+```zsh
+pnpm add --global eas-cli
+```
+
+## XCode
+
+### Installation
+
+[Install XCode on the App Store](https://apps.apple.com/gb/app/xcode/id497799835?mt=12)
+
+## Android Studio
+
+### Installation
+
+```zsh
+brew install --cask android-studio
+```
