@@ -33,12 +33,13 @@ brew install --cask herd
 brew install --cask dbngin
 brew install --cask tableplus
 brew install mysql-client
-brew install yarn
+npm -g i @wordpress/env
 
 ## Install basic React Native app development requirements
 brew install expo-orbit
 pnpm add --global eas-cli
 brew install --cask android-studio
+brew install yarn
 
 # Install other apps
 brew install --cask raycast

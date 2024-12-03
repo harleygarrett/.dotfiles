@@ -251,3 +251,11 @@ brew install yarn
 ```zsh
 brew install --cask raycast
 ```
+
+## `wp-env`
+
+### Installation
+
+```zsh
+npm -g i @wordpress/env
+```
