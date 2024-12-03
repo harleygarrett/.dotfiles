@@ -235,3 +235,11 @@ Initially installed via Google Fonts, but removed and installed using Homebrew i
 ```zsh
 brew install --cask font-syne-mono
 ```
+
+## `yarn`
+
+### Installation
+
+```zsh
+brew install yarn
+```

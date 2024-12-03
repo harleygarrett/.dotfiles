@@ -34,6 +34,7 @@ brew install --cask herd
 brew install --cask dbngin
 brew install --cask tableplus
 brew install mysql-client
+brew install yarn
 
 ## Install basic React Native app development requirements
 brew install expo-orbit
