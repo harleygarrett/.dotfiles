@@ -259,3 +259,15 @@ brew install --cask raycast
 ```zsh
 npm -g i @wordpress/env
 ```
+
+## Docker
+
+### Installation
+
+Install with cask to install Docker and Docker Desktop ([installing separately causes conflicts](https://github.com/Homebrew/brew/issues/16309))
+
+```zsh
+brew install --cask docker
+```
+
+On opening, Docker requires Rosetta to be installed (handled in UI)

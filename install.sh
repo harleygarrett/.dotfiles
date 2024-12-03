@@ -16,30 +16,37 @@ brew install --cask notion
 brew install --cask notion-calendar
 
 # Install basic dev requirements
+## git
 brew install git
+## fnm
 brew install fnm
-## Install Node version
+### Install Node version
 fnm install 22
-## Add fnm completions
+### Add fnm completions
 fnm completions --shell
-## Install pnpm
+## pnpm
 brew install pnpm
 ### Add to path
 pnpm setup
+## yarn
+brew install yarn
+## docker
+brew install --cask docker
 
 ## Install basic WP dev requirements
 brew install wp-cli
+### Herd
 brew install --cask herd
 brew install --cask dbngin
 brew install --cask tableplus
 brew install mysql-client
+### wp-env
 npm -g i @wordpress/env
 
 ## Install basic React Native app development requirements
 brew install expo-orbit
 pnpm add --global eas-cli
 brew install --cask android-studio
-brew install yarn
 
 # Install other apps
 brew install --cask raycast
