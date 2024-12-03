@@ -27,7 +27,6 @@ brew install pnpm
 ### Add to path
 pnpm setup
 
-
 ## Install basic WP dev requirements
 brew install wp-cli
 brew install --cask herd
@@ -40,3 +39,6 @@ brew install yarn
 brew install expo-orbit
 pnpm add --global eas-cli
 brew install --cask android-studio
+
+# Install other apps
+brew install --cask raycast

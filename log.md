@@ -243,3 +243,11 @@ brew install --cask font-syne-mono
 ```zsh
 brew install yarn
 ```
+
+## Raycast
+
+### Installation
+
+```zsh
+brew install --cask raycast
+```
