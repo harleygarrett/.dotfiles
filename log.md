@@ -271,3 +271,11 @@ brew install --cask docker
 ```
 
 On opening, Docker requires Rosetta to be installed (handled in UI)
+
+## Postman
+
+## Installation
+
+```zsh
+brew install --cask postman
+```

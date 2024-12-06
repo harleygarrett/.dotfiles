@@ -14,6 +14,7 @@ brew install --cask linear-linear
 brew install --cask figma
 brew install --cask notion
 brew install --cask notion-calendar
+brew install --cask postman
 
 # Install basic dev requirements
 ## git
