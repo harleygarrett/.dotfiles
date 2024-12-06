@@ -1,49 +1,51 @@
 {
-	// CSS Rem
-	"cssrem.fixedDigits": 3,
-	// Debug
-	"debug.console.fontSize": 14,
-	// Editor
-	"editor.bracketPairColorization": "on",
-	"editor.defaultFormatter": "esbenp.prettier-vscode",
-	"editor.fontFamily": "'Syne Mono', Menlo, Monaco, 'Courier New', monospace",
-	"editor.fontSize": 14,
-	"editor.formatOnType": true,
-	"editor.formatOnSave": true,
-	"editor.tabCompletion": "on",
-	"editor.tabSize": 2,
-	"editor.wordWrap": "on",
-	// Show .git directory in file explorer
-	"files.exclude": {
-		"**/.git": false
-	},
-	// Git
-	"git.openRepositoryInParentFolders": "always",
-	// Prettier
-	"prettier.trailingComma": "all",
-	// Terminal
-	"terminal.integrated.fontSize": 14,
-	// Todo Tree
-	"todo-tree.general.showActivityBarBadge": true,
-	"todo-tree.general.tags": ["BUG", "HACK", "FIXME", "TODO", "XXX", "NOTE"],
-	"todo-tree.highlights.customHighlight": {
-		"TODO": {
-			"icon": "check-circle-fill",
-			"background": "#cb4b16",
-			"foreground": "#eee8d5",
-			"iconColour": "#cb4b16",
-			"type": "whole-line"
-		},
-		"NOTE": {
-			"icon": "note",
-			"iconColour": "#eee8d5",
-			"type": "whole-line",
-			"background": "#93a1a1",
-			"foreground": "#002b36"
-		}
-	},
-	// Workbench
-	"workbench.colorTheme": "Solarized Dark",
-	"workbench.tree.indent": 20,
-	"prettier.useTabs": true
+  // CSS Rem
+  "cssrem.fixedDigits": 3,
+  // Debug
+  "debug.console.fontSize": 14,
+  // Diff Editor
+  "diffEditor.ignoreTrimWhitespace": true,
+  // Editor
+  "editor.bracketPairColorization": "on",
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "editor.detectIndentation": true,
+  "editor.fontFamily": "'Syne Mono', Menlo, Monaco, 'Courier New', monospace",
+  "editor.fontSize": 14,
+  "editor.formatOnType": true,
+  "editor.formatOnSave": true,
+  "editor.tabCompletion": "on",
+  "editor.tabSize": 2,
+  "editor.wordWrap": "on",
+  // Show .git directory in file explorer
+  "files.exclude": {
+    "**/.git": false
+  },
+  // Git
+  "git.openRepositoryInParentFolders": "always",
+  // Prettier
+  "prettier.trailingComma": "all",
+  // Terminal
+  "terminal.integrated.fontSize": 14,
+  // Todo Tree
+  "todo-tree.general.showActivityBarBadge": true,
+  "todo-tree.general.tags": ["BUG", "HACK", "FIXME", "TODO", "XXX", "NOTE"],
+  "todo-tree.highlights.customHighlight": {
+    "TODO": {
+      "icon": "check-circle-fill",
+      "background": "#cb4b16",
+      "foreground": "#eee8d5",
+      "iconColour": "#cb4b16",
+      "type": "whole-line"
+    },
+    "NOTE": {
+      "icon": "note",
+      "iconColour": "#eee8d5",
+      "type": "whole-line",
+      "background": "#93a1a1",
+      "foreground": "#002b36"
+    }
+  },
+  // Workbench
+  "workbench.colorTheme": "Solarized Dark",
+  "workbench.tree.indent": 20
 }
