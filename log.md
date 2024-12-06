@@ -279,3 +279,11 @@ On opening, Docker requires Rosetta to be installed (handled in UI)
 ```zsh
 brew install --cask postman
 ```
+
+## SF Pro
+
+## Installation
+
+```zsh
+brew install --cask font-sf-pro
+```

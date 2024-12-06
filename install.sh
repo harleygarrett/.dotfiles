@@ -8,6 +8,7 @@ brew install --cask warp
 
 # Install fonts
 brew install --cask font-syne-mono
+brew install --cask font-sf-pro
 
 # Install work apps
 brew install --cask linear-linear
