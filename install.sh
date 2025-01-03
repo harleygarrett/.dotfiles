@@ -10,12 +10,13 @@ brew install --cask warp
 brew install --cask font-syne-mono
 brew install --cask font-sf-pro
 
-# Install work apps
+# Install work/admin apps
 brew install --cask linear-linear
 brew install --cask figma
 brew install --cask notion
 brew install --cask notion-calendar
 brew install --cask postman
+brew install --cask slack
 
 # Install basic dev requirements
 ## git
@@ -28,7 +29,7 @@ fnm install 22
 fnm completions --shell
 ## pnpm
 brew install pnpm
-### Add to path
+### add to path
 pnpm setup
 ## yarn
 brew install yarn
