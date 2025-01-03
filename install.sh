@@ -39,6 +39,8 @@ brew install --cask docker
 ## databases
 brew install --cask dbeaver-community
 brew install --cask mysqlworkbench
+## preprocessors
+brew install sass/sass/sass
 
 ## Install basic WP dev requirements
 brew install wp-cli

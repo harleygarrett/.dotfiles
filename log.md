@@ -327,3 +327,11 @@ Preferred tool for managing, or working with, MySQL databases
 brew install --cask dbeaver-community
 brew install --cask mysqlworkbench
 ```
+
+## Sass
+
+CSS preprocessor
+
+```zsh
+brew install sass/sass/sass
+```
