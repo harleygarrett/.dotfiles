@@ -17,6 +17,7 @@ brew install --cask notion
 brew install --cask notion-calendar
 brew install --cask postman
 brew install --cask slack
+brew install --cask 1password
 
 # Install basic dev requirements
 ## git

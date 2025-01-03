@@ -295,3 +295,13 @@ brew install --cask font-sf-pro
 ```zsh
 brew install --cask slack
 ```
+
+## 1Password
+
+Password manager
+
+### Installation
+
+```zsh
+brew install --cask 1password
+```
