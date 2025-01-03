@@ -305,3 +305,25 @@ Password manager
 ```zsh
 brew install --cask 1password
 ```
+
+## DBeaver
+
+> Note: may uninstall -- prefer MySQLWorkbench for MySQL and pgAdmin for PostgreSQL
+
+### Installation
+
+```zsh
+brew install --cask dbeaver-community
+brew install --cask mysqlworkbench
+```
+
+## MySQLWorkbench
+
+Preferred tool for managing, or working with, MySQL databases
+
+### Installation
+
+```zsh
+brew install --cask dbeaver-community
+brew install --cask mysqlworkbench
+```

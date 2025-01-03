@@ -36,6 +36,9 @@ pnpm setup
 brew install yarn
 ## docker
 brew install --cask docker
+## databases
+brew install --cask dbeaver-community
+brew install --cask mysqlworkbench
 
 ## Install basic WP dev requirements
 brew install wp-cli
