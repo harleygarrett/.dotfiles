@@ -328,10 +328,70 @@ brew install --cask dbeaver-community
 brew install --cask mysqlworkbench
 ```
 
-## Sass
+## [Sass](https://sass-lang.com/)
 
 CSS preprocessor
 
 ```zsh
 brew install sass/sass/sass
+```
+
+## [GitHub CLI](https://cli.github.com/)
+
+### Installation
+
+```zsh
+brew install gh
+```
+
+## [pgAdmin](https://www.pgadmin.org/)
+
+Preferred tool for managing, or working with, PostgreSQL databases
+
+### Installation
+
+```zsh
+brew install --cask pgadmin4
+```
+
+## [Xata](https://xata.io/)
+
+### Installation
+
+```zsh
+brew tap xataio/brew && brew install xata
+```
+
+## [Microsoft Edge](https://www.microsoft.com/en-us/edge/mac?form=MA13FJ)
+
+Browser for SharePoint development and cross-browser testing
+
+### Installation
+
+```zsh
+brew install --cask microsoft-edge
+```
+
+## [Antidote](https://antidote.sh/)
+
+Zsh package manager
+
+### Installation
+
+```zsh
+git clone --depth=1 https://github.com/mattmc3/antidote.git ~/.antidote
+```
+
+### Initialisation
+
+Add initialisation script to bottom of `.zshrc`:
+
+```zsh
+source ~/.antidote/antidote.zsh
+```
+
+Create symlink for antidote plugins:
+
+```zsh
+ln -s $HOME/.dotfiles/zsh/.zsh_plugins.txt $HOME/.zsh_plugins.txt
 ```

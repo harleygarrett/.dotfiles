@@ -17,11 +17,15 @@ brew install --cask notion
 brew install --cask notion-calendar
 brew install --cask postman
 brew install --cask slack
+brew install --cask discord
 brew install --cask 1password
+brew install --cask zoom
 
 # Install basic dev requirements
 ## git
 brew install git
+## GitHub
+brew install gh
 ## fnm
 brew install fnm
 ### Install Node version
@@ -39,6 +43,8 @@ brew install --cask docker
 ## databases
 brew install --cask dbeaver-community
 brew install --cask mysqlworkbench
+brew install --cask pgadmin4
+brew tap xataio/brew && brew install xata
 ## preprocessors
 brew install sass/sass/sass
 
@@ -56,6 +62,9 @@ npm -g i @wordpress/env
 brew install expo-orbit
 pnpm add --global eas-cli
 brew install --cask android-studio
+
+## Install basic SharePoint develoment requirements
+brew install --cask microsoft-edge
 
 # Install other apps
 brew install --cask raycast
