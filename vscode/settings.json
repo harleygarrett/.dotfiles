@@ -4,7 +4,7 @@
   // Debug
   "debug.console.fontSize": 14,
   // Diff Editor
-  "diffEditor.ignoreTrimWhitespace": true,
+  "diffEditor.ignoreTrimWhitespace": false,
   // Editor
   "editor.bracketPairColorization": "on",
   "editor.defaultFormatter": "esbenp.prettier-vscode",
@@ -22,8 +22,11 @@
   },
   // Git
   "git.openRepositoryInParentFolders": "always",
+  // PHP Code Sniffer
+  "phpSniffer.autoDetect": true,
   // Prettier
-  "prettier.trailingComma": "all",
+  // "prettier.trailingComma": "all",
+  "prettier.tabWidth": 2,
   // Terminal
   "terminal.integrated.fontSize": 14,
   // Todo Tree
@@ -47,5 +50,13 @@
   },
   // Workbench
   "workbench.colorTheme": "Solarized Dark",
-  "workbench.tree.indent": 20
+  "workbench.editorAssociations": {
+    "*.svg": "default"
+  },
+  "workbench.tree.indent": 20,
+  // PHP
+  "[php]": {
+    "editor.defaultFormatter": "wongjn.php-sniffer"
+  },
+  "javascript.updateImportsOnFileMove.enabled": "never"
 }
