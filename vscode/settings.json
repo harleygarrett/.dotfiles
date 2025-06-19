@@ -58,5 +58,6 @@
   "[php]": {
     "editor.defaultFormatter": "wongjn.php-sniffer"
   },
-  "javascript.updateImportsOnFileMove.enabled": "never"
+  "javascript.updateImportsOnFileMove.enabled": "never",
+  "workbench.editor.empty.hint": "hidden"
 }

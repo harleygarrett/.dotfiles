@@ -47,6 +47,8 @@ brew install --cask pgadmin4
 brew tap xataio/brew && brew install xata
 ## preprocessors
 brew install sass/sass/sass
+# python
+brew install python
 
 ## Install basic WP dev requirements
 brew install wp-cli
@@ -68,3 +70,4 @@ brew install --cask microsoft-edge
 
 # Install other apps
 brew install --cask raycast
+brew install --cask craft

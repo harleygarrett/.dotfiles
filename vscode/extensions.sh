@@ -16,3 +16,13 @@ code --install-extension stylelint.vscode-stylelint
 code --install-extension wongjn.php-sniffer
 # Tailwind Intellisense
 code --install-extension bradlc.vscode-tailwindcss
+# Astro
+code --install-extension astro-build.astro-vscode
+# MDX
+code --install-extension unifiedjs.vscode-mdx
+# Docker
+code --install-extension ms-azuretools.vscode-docker
+# Python Linting
+code --install-extension ms-python.python
+# Cline
+code --install-extension saoudrizwan.claude-dev
