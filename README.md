@@ -7,3 +7,17 @@
 - [Configuring Zsh Without Dependencies | The Valuable Dev](https://thevaluable.dev/zsh-install-configure-mouseless/) — understanding zsh config
 - [Moving Away From Oh-My-Zsh | Ian Y.E. Pan](https://ianyepan.github.io/posts/moving-away-from-ohmyzsh/)
 - [Simplest ZSH Prompt Configs for Git Branch Name | Nick Gibbon](https://medium.com/pareture/simplest-zsh-prompt-configs-for-git-branch-name-3d01602a6f33) — adding git branch to command prompt
+
+## Maintenance
+
+To keep `brew` installations up to date run:
+
+```zsh
+brew update --greedy
+```
+
+Then to cleanup stale files run:
+
+```zsh
+brew cleanup
+```
