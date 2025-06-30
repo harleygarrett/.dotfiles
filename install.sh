@@ -1,14 +1,20 @@
 # Install Homebrew
 /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
 
-# Install basic apps
-brew install --cask google-chrome
+# Install basic dev apps
 brew install --cask visual-studio-code
 brew install --cask warp
 
 # Install fonts
 brew install --cask font-syne-mono
 brew install --cask font-sf-pro
+
+# Browsers
+brew install --cask google-chrome
+brew install --cask google-chrome@canary
+brew install --cask firefox
+brew install --cask microsoft-edge
+brew install --cask vivaldi
 
 # Install work/admin apps
 brew install --cask linear-linear
@@ -64,9 +70,6 @@ npm -g i @wordpress/env
 brew install expo-orbit
 pnpm add --global eas-cli
 brew install --cask android-studio
-
-## Install basic SharePoint develoment requirements
-brew install --cask microsoft-edge
 
 # Install other apps
 brew install --cask raycast
