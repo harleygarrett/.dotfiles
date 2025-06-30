@@ -20,6 +20,8 @@
   "files.exclude": {
     "**/.git": false
   },
+  // Gemini Code Assist
+  "geminicodeassist.project": "gen-lang-client-0949098501",
   // Git
   "git.openRepositoryInParentFolders": "always",
   // PHP Code Sniffer

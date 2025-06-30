@@ -26,3 +26,5 @@ code --install-extension ms-azuretools.vscode-docker
 code --install-extension ms-python.python
 # Cline
 code --install-extension saoudrizwan.claude-dev
+# Gemini
+code --install-extension google.geminicodeassist
