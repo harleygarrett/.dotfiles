@@ -56,3 +56,6 @@ prompt='%{%}%n@%m %1~ ${vcs_info_msg_0_}%#%{%} '
 
 # Antidote
 source ~/.antidote/antidote.zsh
+
+export JAVA_HOME="/opt/homebrew/opt/openjdk/libexec/openjdk.jdk/Contents/Home"
+export PATH="$JAVA_HOME/bin:$PATH"export PATH="$HOME/.local/bin:$PATH"
