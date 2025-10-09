@@ -13,6 +13,7 @@ brew install --cask font-sf-pro
 brew install --cask google-chrome
 brew install --cask google-chrome@canary
 brew install --cask firefox
+brew install --cask firefox@nightly
 brew install --cask microsoft-edge
 brew install --cask vivaldi
 
@@ -56,6 +57,10 @@ brew install sass/sass/sass
 # python
 brew install python
 
+# AI
+brew install --cask claude
+brew install --cask claude-code
+
 ## Install basic WP dev requirements
 brew install wp-cli
 ### Herd
@@ -70,6 +75,13 @@ npm -g i @wordpress/env
 brew install expo-orbit
 pnpm add --global eas-cli
 brew install --cask android-studio
+
+## Maestro
+brew tap mobile-dev-inc/tap
+brew install maestro
+
+## Trusted Tester tools
+brew install --cask colour-contrast-analyser
 
 # Install other apps
 brew install --cask raycast
