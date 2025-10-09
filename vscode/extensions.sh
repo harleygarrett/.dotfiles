@@ -8,8 +8,6 @@ code --install-extension esbenp.prettier-vscode
 code --install-extension mrmlnc.vscode-duplicate
 # px to rem
 code --install-extension cipchk.cssrem
-# hex-to-rgba
-code --install-extension dakshmiglani.hex-to-rgba
 # Stylelint
 code --install-extension stylelint.vscode-stylelint
 # PHP Sniffer
@@ -26,5 +24,5 @@ code --install-extension ms-azuretools.vscode-docker
 code --install-extension ms-python.python
 # Cline
 code --install-extension saoudrizwan.claude-dev
-# Gemini
-code --install-extension google.geminicodeassist
+# Expo Tools
+code --install-extension expo.vscode-expo-tools
