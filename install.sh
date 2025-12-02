@@ -17,6 +17,11 @@ brew install --cask firefox@nightly
 brew install --cask microsoft-edge
 brew install --cask vivaldi
 
+# Proton
+brew install --cask protonvpn
+brew install --cask proton-pass
+brew install --cask proton-drive
+
 # Install work/admin apps
 brew install --cask linear-linear
 brew install --cask figma
@@ -27,6 +32,7 @@ brew install --cask slack
 brew install --cask discord
 brew install --cask 1password
 brew install --cask zoom
+brew install --cask screaming-frog-seo-spider
 
 # Install basic dev requirements
 ## git
@@ -85,4 +91,4 @@ brew install --cask colour-contrast-analyser
 
 # Install other apps
 brew install --cask raycast
-brew install --cask craft
+brew install --cask numi
