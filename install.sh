@@ -97,5 +97,6 @@ brew install --cask raycast
 brew install --cask numi
 # PNG image compression
 brew install oxipng 
+brew install pngquant
 # JPG image compression
 brew install jpegoptim
