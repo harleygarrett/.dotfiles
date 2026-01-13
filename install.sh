@@ -49,6 +49,9 @@ fnm completions --shell
 brew install pnpm
 ### add to path
 pnpm setup
+## bun
+brew tap oven-sh/bun
+brew install bun
 ## yarn
 brew install yarn
 ## docker
