@@ -92,3 +92,7 @@ brew install --cask colour-contrast-analyser
 # Install other apps
 brew install --cask raycast
 brew install --cask numi
+# PNG image compression
+brew install oxipng 
+# JPG image compression
+brew install jpegoptim

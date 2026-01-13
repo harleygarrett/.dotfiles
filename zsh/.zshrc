@@ -59,3 +59,53 @@ source ~/.antidote/antidote.zsh
 
 export JAVA_HOME="/opt/homebrew/opt/openjdk/libexec/openjdk.jdk/Contents/Home"
 export PATH="$JAVA_HOME/bin:$PATH"export PATH="$HOME/.local/bin:$PATH"
+
+# Image compression -- pass in single file or directory
+## PNGs (lossless)
+pngopt() {
+  for target in "$@"; do
+    if [[ -d "$target" ]]; then
+      oxipng -o 4 --strip all -r "$target"
+    elif [[ -f "$target" ]]; then
+      oxipng -o 4 --strip all "$target"
+    else
+      echo "Not found: $target"
+    fi
+  done
+}
+## PNGs (lossy)
+pnglossy() {
+  for target in "$@"; do
+    if [[ -d "$target" ]]; then
+      find "$target" -name "*.png" -exec pngquant --force --ext .png {} \;
+    elif [[ -f "$target" ]]; then
+      pngquant --force --ext .png "$target"
+    else
+      echo "Not found: $target"
+    fi
+  done
+}
+## JPGs (lossless)
+jpgopt() {
+  for target in "$@"; do
+    if [[ -d "$target" ]]; then
+      find "$target" \( -name "*.jpg" -o -name "*.jpeg" \) -exec jpegoptim --strip-all {} \;
+    elif [[ -f "$target" ]]; then
+      jpegoptim --strip-all "$target"
+    else
+      echo "Not found: $target"
+    fi
+  done
+}
+# JPG (lossy, 80% quality)
+jpglossy() {
+  for target in "$@"; do
+    if [[ -d "$target" ]]; then
+      find "$target" \( -name "*.jpg" -o -name "*.jpeg" \) -exec jpegoptim --strip-all -m80 {} \;
+    elif [[ -f "$target" ]]; then
+      jpegoptim --strip-all -m80 "$target"
+    else
+      echo "Not found: $target"
+    fi
+  done
+}
