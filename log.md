@@ -395,3 +395,15 @@ Create symlink for antidote plugins:
 ```zsh
 ln -s $HOME/.dotfiles/zsh/.zsh_plugins.txt $HOME/.zsh_plugins.txt
 ```
+
+## Notability
+
+### Installation
+
+[Install Notability on the App Store](https://apps.apple.com/gb/app/notability-ai-notes-pdf-app/id360593530)
+
+## mymind
+
+### Installation
+
+[Install mymind on the App Store](https://apps.apple.com/gb/app/mymind-extend-your-mind/id1532801185?mt=12)

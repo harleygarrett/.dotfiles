@@ -5,6 +5,9 @@
 brew install --cask visual-studio-code
 brew install --cask warp
 
+# Security
+brew install sheeki03/tap/tirith
+
 # Install fonts
 brew install --cask font-syne-mono
 brew install --cask font-sf-pro
@@ -69,6 +72,8 @@ brew install python
 # AI
 brew install --cask claude
 brew install --cask claude-code
+brew install gemini-cli
+brew install --cask steipete/tap/codexbar
 
 ## Install basic WP dev requirements
 brew install wp-cli
@@ -100,3 +105,11 @@ brew install oxipng
 brew install pngquant
 # JPG image compression
 brew install jpegoptim
+
+# Networking
+brew install tailscale
+brew install --cask tailscale-app
+
+# Gaming
+brew install --cask steam
+brew install --cask crossover
