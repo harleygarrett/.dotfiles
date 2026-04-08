@@ -1,3 +1,6 @@
+# Security rules: https://github.com/sheeki03/tirith
+eval "$(tirith init)"
+
 # Laravel Herd
 export HERD_PHP_83_INI_SCAN_DIR="/Users/harleygarrett/Library/Application Support/Herd/config/php/83/"
 
