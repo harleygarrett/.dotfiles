@@ -65,6 +65,9 @@
   "diffEditor.codeLens": true,
   "redhat.telemetry.enabled": false,
   "workbench.startupEditor": "none",
+  "[astro]": {
+    "editor.defaultFormatter": "astro-build.astro-vscode"
+  },
   "[dockercompose]": {
     "editor.insertSpaces": true,
     "editor.tabSize": 2,
