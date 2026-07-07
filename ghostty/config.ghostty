@@ -1,0 +1,12 @@
+macos-icon = xray
+
+theme = iTerm2 Solarized Dark
+
+title = " "
+macos-titlebar-proxy-icon = hidden
+window-padding-x = 7
+window-padding-y = 7
+
+minimum-contrast = 3
+font-family = "Syne Mono"
+font-size = 14
