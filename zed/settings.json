@@ -48,6 +48,9 @@
   "active_pane_modifiers": {
     "border_size": 0.0,
   },
+  "auto_install_extensions": {
+    "hackatime": true,
+  },
   "diagnostics": {
     "inline": {
       "enabled": false,
@@ -84,8 +87,8 @@
     "Markdown": {
       "colorize_brackets": true,
       "indent_guides": {
-        "coloring": "indent_aware"
-      }
+        "coloring": "indent_aware",
+      },
     },
     "TypeScript": {
       "colorize_brackets": true,

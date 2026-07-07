@@ -112,3 +112,8 @@ jpglossy() {
     fi
   done
 }
+
+# Hackatime (requires config https://hackatime.hackclub.com/)
+# terminal-wakatime setup
+export PATH="$HOME/.wakatime:$PATH"
+eval "$(terminal-wakatime init)"
