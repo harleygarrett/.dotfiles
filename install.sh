@@ -116,3 +116,6 @@ brew install jpegoptim
 # Gaming
 brew install --cask steam
 brew install --cask crossover
+
+# For keyboard shortcut mapping
+brew install --cask karabiner-elements
