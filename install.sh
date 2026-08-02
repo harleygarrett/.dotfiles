@@ -4,8 +4,6 @@
 # Install basic dev apps
 brew install --cask zed
 brew install --cask ghostty
-# brew install --cask visual-studio-code -- currently not in use
-# brew install --cask warp -- currently not in use
 
 # Security
 brew install sheeki03/tap/tirith
@@ -63,28 +61,15 @@ brew install yarn
 ## docker
 brew install --cask docker
 ## databases
-# brew install --cask dbeaver-community -- currently not in use
 brew install --cask mysqlworkbench
 brew install --cask pgadmin4
-# brew tap xataio/brew && brew install xata -- currently not in use
 ## preprocessors
 brew install sass/sass/sass
 # python
 brew install python
 
-# AI
-# brew install --cask claude  -- currently not in use
-# brew install --cask claude-code -- currently not in use
-# brew install gemini-cli -- currently not in use
-# brew install --cask steipete/tap/codexbar -- currently not in use
-
 ## Install basic WP dev requirements
 brew install wp-cli
-### Herd
-# brew install --cask herd  -- currently not in use
-# brew install --cask dbngin -- currently not in use
-# brew install --cask tableplus -- currently not in use
-# brew install mysql-client -- currently not in use
 ### wp-env
 npm -g i @wordpress/env
 
@@ -108,10 +93,6 @@ brew install oxipng
 brew install pngquant
 # JPG image compression
 brew install jpegoptim
-
-# Networking
-# brew install tailscale -- currently not in use
-# brew install --cask tailscale-app -- currently not in use
 
 # Gaming
 brew install --cask steam
